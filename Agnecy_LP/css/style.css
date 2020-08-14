@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 0;
+    background-color: #f6f2f2;
+}
+
+
+.content {
+    max-width: 1249px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.start{
+    padding-top: 29px;
+    padding-bottom: 111px;
+}
+ 
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #313030;
+    height: 89px;
+}
+
+.menu-list {
+    padding-top: 40px;
+}
+
+.menu-list:first-child {
+    margin-left: 340px; /*358*/
+}
+
+.menu-list:last-child {
+    margin-right: 340px;  /*408*/
+}
+
+.link {
+    font-family: "Open Sans", 'Arial';
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 24px;
+    letter-spacing: 0.49px;
+}
+
+.menu-list a {
+    text-transform: uppercase;
+    color: #e0e0e0;
+    transition: 200ms linear;
+    padding: 42px 30px 28px;
+}
+
+.menu-list a:hover,
+.menu-list a:focus {
+    background-color: #ff3f40;
+}
+
+.info{
+    width: 550px;
+    float: left;
+}
+
+h1{
+    /* Style for "our strong" */
+width: 588px;
+height: 117px;
+color: #000000;
+font-family: "Open Sans";
+font-size: 60px;
+font-weight: 900;
+line-height: 72px;
+text-transform: uppercase;
+/* Text style for "o, ur stro" */
+letter-spacing: 1.5px;
+/* Text style for "organaisat" */
+letter-spacing: 6px;
+padding: 0;
+margin: 0;
+margin-bottom: 36px;
+text-align: left;
+}
+
+.info p, .info2 p{
+    /* Style for "Lorem ipsu" */
+width: 512px;
+height: 73px;
+opacity: 0.7;
+color: #000000;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+margin-bottom: 58px;
+}
+
+.btn-cover{
+    width: 227px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    left: 168px;
+    
+}
+
+.videoinfo{
+    margin-top: 103px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+video{
+    width: 551px;
+    height: 356px;
+    background-color: grey;
+    float: right;
+}
+
+.text {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.6em;
+}
+
+.logos-info{
+    max-width: 272px;
+    max-height: 213px;
+    text-align: left;
+}
+
+.content2{
+    display: flex;
+    max-width: 1249px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 114px;
+    padding-bottom: 108px;
+    border-bottom: 2px solid #ececec;
+}
+
+
+
+.btn-cover2{
+    width: 227px;
+    height: 55px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ff2d2d;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    left: 168px;
+    
+}
+
+.info2{
+    padding-right: 133px;
+}
+
+.logos{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.logos-info img{
+    margin-bottom: 30px;
+}
+
+.logos-info:nth-child(1),
+.logos-info:nth-child(2){
+    margin-bottom: 50px;
+}
+
+.logos-info:nth-child(1),
+.logos-info:nth-child(3){
+    margin-right: 50px;
+}
+
+.logos-info h3{
+opacity: 0.7;
+color: #000000;
+font-family: "Open Sans";
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0.27px;
+margin-bottom: 17px;
+}
+
+.info2 h2{
+    /* Style for "do you kno" */
+width: 493px;
+height: 87px;
+opacity: 0.8;
+color: #000000;
+font-family: "Open Sans";
+font-size: 42px;
+font-weight: 700;
+line-height: 55px;
+text-transform: uppercase;
+/* Text style for "do you kno" */
+letter-spacing: 0.42px;
+margin-bottom: 36px;
+text-align: left;
+}
+
+.content3{
+    max-width: 1249px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 106px;
+    padding-bottom: 138px;
+}
+
+.products *{
+    margin: 0 auto;
+}
+
+.products h3{
+    width: 420px;
+    height: 32px;
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.products p{
+    width: 504px;
+    height: 45px;
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hr-product{
+    width: 132px;
+    height: 3px;
+    background-color: #ff2d2d;
+    margin-bottom: 88px;
+}
+
+.gallery-links{
+    margin: 0 auto;
+    margin-bottom: 65px;
+    width: 892px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-links .link{
+    width: 176px;
+    height: 17px;
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.22px;
+}
+
+.gallery-links .link:hover{
+    color: #ff2d2d;
+}
+
+
+.gallery-photo{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-gallery:nth-child(-n+4){
+    margin-bottom: 20px;
+}
+
+
+
+.product-gallery{
+    width: 298px;
+    height: 291px;
+    background-color: grey;
+}
+
+.content4{
+    max-width: 1249px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 108px;
+}
+
+.meeting h3{
+    width: 420px;
+    height: 32px;
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.meeting p{
+    width: 504px;
+    height: 45px;
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.content.info{
+    margin: 0;
+    padding: 0;
+}
+
+.meeting .hr-product{
+    width: 132px;
+    height: 3px;
+    background-color: #ff2d2d;
+    margin-bottom: 70px;
+}
+
+.portfolio{
+    display: flex;
+}
+
+.avatar{
+    width: 321px;
+    height: 458px;
+    background-color: grey;
+    margin-right: 74px;
+}
+
+.avatar_name h4{
+
+    width: 207px;
+    height: 23px;
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.28px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.avatar_name p{
+    width: 504px;
+    height: 45px;
+    opacity: 0.7;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 44px;
+}
+
+.social_links{
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.social_links .link{
+    /* Style for "Dribble" */
+
+height: 15px;
+opacity: 0.8;
+color: #000000;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: italic;
+line-height: 24px;
+/* Text style for "D, ribble" */
+letter-spacing: 0.9px;
+    margin-right: 29px;
+}
+
+.social_links .link:last-child{
+    margin-right: 0;
+}
+
+
+
+.avatar_photos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.avatar_photos .team{
+    width: 197px;
+    height: 214px;
+    margin-right: 20px;
+    background-color: grey;
+}
+
+.avatar_photos .team:last-child{
+    margin-right: 0;
+}
+
+
+.subscribe{
+    background-color: #f6f2f2;
+}
+
+.content5{
+    max-width: 1249px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.content5 *{
+    margin: 0 auto; 
+}
+
+.content5 h3{
+        /* Style for "Design tip" */
+    width: 1099px;
+    height: 43px;
+    opacity: 0.8;
+    color: #ff2d2d;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 24px;
+    /* Text style for "Design tip" */
+    letter-spacing: 1.05px;
+}
+
+.content5 p{
+        /* Style for "Lorem ipsu" */
+    width: 541px;
+    height: 17px;
+    opacity: 0.8;
+    color: #ff2d2d;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 62px;
+}
+
+.form-01{
+    width: 760px;
+    display: flex;
+
+}
+
+.form1{
+    width: 521px;
+    height: 79px;
+    background-color: #ffffff;
+    border: none;
+    display: block;
+}
+
+.btn-cover3{
+    width: 214px;
+    height: 79px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.content6{
+    margin-top: 106px;
+}
+
+.content6 h3{
+    margin-bottom: 51px;
+}
+
+.content6 p{
+    margin-bottom: 54px;
+}
+
+.content6 .hr-product{
+    margin-bottom: 75px;
+}
+
+.form-02{
+    width: 732px;
+}
+
+.form2-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.form2{
+    width: 339px;
+    height: 69px;
+    background-color: #e6e6e6;
+    border: none;
+    display: block;
+    border-radius: 6px;
+}
+
+.form2-2{
+    margin-bottom: 45px;
+}
+
+.form21{
+    width: 731px;
+    height: 249px;
+    background-color: #e6e6e6;
+    border: none;
+    display: block;
+    border-radius: 6px;
+}
+
+.btn-cover4{
+    width: 728px;
+    height: 72px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info{
+    width: 480px;
+    height: 480px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 79px;
+    padding-top: 145px; 
+}
+
+.contact-info h4{
+        /* Style for "contact in" */
+    width: 138px;
+    height: 14px;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    text-transform: uppercase;
+    /* Text style for "c, ontact" */
+    letter-spacing: 0.32px;
+    margin-bottom: 41px;
+}
+
+.contact-info p{
+        /* Style for "Jalalabad" */
+    width: 285px;
+    height: 45px;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+
+
+
+footer{
+    height: 111px;
+    background-color: #313030;
+}
+
+.content7{
+    max-width: 1249px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content7 .link{
+    color: #b8b8b8;
+}
